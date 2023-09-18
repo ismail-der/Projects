@@ -1,0 +1,339 @@
+/***** reset **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/****** general ******/
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.color {
+  color: #f1c40f;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+/******* header + section-1 ******/
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  /* position: fixed;
+  width: 100%; */
+  /* left: 25%; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Long Cang", cursive;
+  margin-bottom: 0;
+}
+
+.logo a {
+  font-size: 2.5rem;
+}
+
+.logo i {
+  color: #f1c40f;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+ul li {
+  padding: 1rem;
+  /* border-radius: 30px; */
+}
+
+header a {
+  color: white;
+}
+
+/* styling of the navigation liste using display :block for a */
+
+/* ul li a {
+  padding: 1.5rem;
+  display: block;
+} */
+/***************************************************/
+
+header ul li:hover {
+  background-color: #f1c40f;
+}
+
+.sec-1-content {
+  background: url(../images/frame.jpg) center center/cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.sec-1-box {
+  max-width: 700px;
+  text-align: center;
+  color: white;
+}
+
+.sec-1-box h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.sec-1-box p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+strong {
+  color: #f1c40f;
+  font-weight: 300;
+}
+
+/****** section 2 *****/
+
+.section-2 {
+  display: flex;
+  flex-flow: column;
+  background-color: #ddd;
+  padding: 100px 100px;
+}
+
+.offers {
+  display: flex;
+  flex-flow: column;
+  /* background-color: aqua; */
+  /* padding: 10rem 1rem; */
+}
+
+.offers-liste {
+  margin: auto;
+}
+
+.offers h2 {
+  color: #444;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.offers .appartement {
+  display: flex;
+  flex-flow: column;
+  /* max-width: 250px; */
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  flex: 1;
+}
+
+.offers .offers-liste li {
+  color: #444;
+  padding: 0 0 2rem 0;
+  border-radius: 0;
+  margin-left: 1rem;
+}
+
+.offers .offers-liste li img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.separator {
+  width: 50px;
+  height: 2px;
+  background-color: #444;
+  margin-bottom: 1rem;
+}
+
+/*********  section-3 *****/
+
+.who {
+  min-height: 500px;
+  background-color: #444;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-img {
+  flex: 1;
+  background: url(../images/team.jpg) center center/cover;
+}
+
+.who-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.who-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #444;
+  padding: 4rem;
+  color: white;
+  flex: 1;
+}
+
+.who-text h2 {
+  margin-bottom: 2rem;
+}
+
+.who-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+/***** section testimonialse *****/
+
+.testimonialse {
+  display: flex;
+  flex-flow: column;
+  /* min-height: 500px; */
+  background-color: #ddd;
+  padding: 100px 100px;
+}
+
+.testimonialse h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #444;
+}
+
+.test-elem {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: white;
+  padding: 1rem 2rem;
+  min-height: 150px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+em {
+  color: #555;
+}
+
+.test-elem-text {
+  color: #333;
+  width: 80%;
+  margin: auto;
+}
+
+.test-elem-text p i {
+  margin: 0.2rem;
+}
+
+.test-elem-profile p {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.test-elem-profile {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.test-elem-profile img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+/******* contact *****/
+
+.contact {
+  padding: 8rem 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  background-color: #333;
+  display: flex;
+  flex-flow: column;
+  color: white;
+}
+
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: white;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #f1c40f;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: red;
+}
+
+footer {
+  background: #444;
+  padding: 3rem 1rem;
+  color: white;
+  text-align: center;
+}

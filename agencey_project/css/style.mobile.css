@@ -1,0 +1,88 @@
+/*****  header ******/
+
+header {
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+ul li {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-bottom: 1px dotted #ddd;
+}
+
+.sec-1-box h1 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.sec-1-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-1-box p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/**** section-2 ****/
+
+.section-2 {
+  text-align: center;
+  padding: 100px 2rem;
+  justify-content: center;
+}
+
+.offers-liste {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/**** who ****/
+
+.who {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.who-img {
+  min-height: 300px;
+}
+
+.who-text {
+  padding: 2rem;
+}
+
+/****** testimonialse *****/
+
+.testimonialse {
+  display: flex;
+  flex-flow: column;
+  /* min-height: 500px; */
+  background-color: #ddd;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.test-elem {
+  flex-flow: column;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.test-elem-profile {
+  padding: 0 0 0.5rem 0;
+}
+
+.reverse {
+  flex-flow: column-reverse;
+}
