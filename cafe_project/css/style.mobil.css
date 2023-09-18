@@ -1,0 +1,103 @@
+/***** header ********/
+
+.header nav h1 {
+  float: none;
+  text-align: center;
+}
+
+.header nav ul {
+  float: none;
+  text-align: center;
+}
+
+.header nav ul li {
+  float: none;
+}
+
+/******** section 1 *****/
+
+.section-1 {
+  min-height: 500px;
+}
+
+.section-1-content {
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  color: white;
+  margin: auto;
+  max-width: 100%;
+  padding-inline: 10px;
+}
+.section-1-content h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.section-1-content > p {
+  font-size: 1rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.5px;
+}
+
+/******* section 2 ******/
+
+.section-2 {
+  padding: 6rem 1rem 6rem 1rem;
+  overflow: auto;
+}
+
+.section-2-content {
+  margin: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.cofe {
+  width: 100%;
+  float: none;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.clock {
+  width: 100%;
+  float: none;
+  text-align: center;
+  margin: auto;
+}
+
+/****** section 4****/
+
+.reservation {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding-inline: 10px;
+  /* background-color: #444; */
+}
+
+/********* nous trouver *******/
+
+.where {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  /* overflow: auto; */
+  /* background-color: #444; */
+}
+
+.where-img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  float: none;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.where-text {
+  width: 100%;
+  float: none;
+  margin: auto;
+}
